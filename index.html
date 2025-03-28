@@ -1,0 +1,136 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Islands Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f2f5;
+        }
+
+        .card {
+            width: 300px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #4ea7f5;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .location {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: gray;
+            margin-top: 5px;
+        }
+
+        .location span {
+            margin-left: 5px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .rating {
+            color: #f4b400;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .rating span {
+            color: gray;
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        .price {
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?maldives" alt="Floating Islands">
+        <div class="card-content">
+            <h2 class="card-title">Enjoy the beauty of the Floating Islands</h2>
+            <div class="location">
+                📍<span>Maldives Islands</span>
+            </div>
+            <div class="footer">
+                <div class="rating">⭐ 5.0 <span>Superb</span></div>
+                <div class="price">$1270</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Islands Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center items-center min-h-screen bg-gray-100">
+
+    <div class="max-w-xs bg-white rounded-2xl shadow-lg border border-blue-300 p-4">
+        <img src="https://source.unsplash.com/300x200/?maldives" alt="Floating Islands"
+            class="w-full rounded-xl">
+        
+        <div class="mt-4">
+            <h2 class="text-lg font-semibold">Enjoy the beauty of the Floating Islands</h2>
+            <div class="flex items-center gap-2 text-gray-500 text-sm mt-1">
+                <span>📍</span>
+                <span>Maldives Islands</span>
+            </div>
+            <div class="flex items-center justify-between mt-3">
+                <div class="flex items-center gap-1 text-yellow-500 font-semibold">
+                    ⭐ 5.0 <span class="text-gray-500 text-sm">Superb</span>
+                </div>
+                <span class="text-blue-500 font-bold">$1270</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
